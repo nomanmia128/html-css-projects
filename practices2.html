@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice2</title>
+    <style>
+       th, td{
+            border: 3px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        label{
+            display: block;
+            /* padding: 5px; */
+        }
+        
+        
+    </style>
+
+</head>
+<body>
+    <h1>Practic Task 2</h1>
+    <table>
+        <thead>
+            <caption><b>COMPANY SALARY SHEET</b></caption>
+            <tr>
+                <th>No</th>
+                <th>Name</th>
+                <th>Possession</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+<tr>
+               <td rowspan="2">01</td>
+               <td rowspan="2">Abdullh</td>
+               <td>Manager</td>
+               <td>30000</td>
+            </tr>
+            <tr>
+                <td>A.Manager</td>
+                <td>55000</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>Tamim</td>
+                <td>Manager</td>
+                <td>30000</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>Bulbul</td>
+                <td>Manager</td>
+                <td>25000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr >
+                <td colspan="4">Total in Fo 3</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <p>Practic Task </p>
+    <select>
+        <option value="name">Good</option>
+        <option value="name">Excellent</option>
+        <option value="name">Very Good</option>
+        <option value="name">Bad</option>
+        <option value="name">Very Bad</option>
+    </select>
+    <h1>The label element</h1>
+    <p>Click on one of the text labels to toggle the related radio button:</p>
+    <form>
+        <label for="HTML"> 
+            <input type="radio" id="html" name="fav_language">HTML
+        </label>
+        <label for="CSS">
+            <input type="radio" id="css" name="fav_language">CSS
+        </label>
+        <label for="JavaScript">
+            <input type="radio" id="JavaScript" name="fav_language" id="JavaScript">JavaScript
+        </label><br>
+        <input type="submit" value="Submit">
+       
+    </form>
+</body>
+</html>
